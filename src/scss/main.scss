@@ -1,0 +1,251 @@
+/* 
+==============================================
+CONTENT:	Project Name Here
+AUTHOR:		Your Name Here
+==============================================
+
+TABLE OF CONTENTS:
+
+0. Reset
+1. Main Layout
+2. Content
+
+==============================================
+*/
+
+/* 0. Reset ================================= */
+@import 'reset';
+
+
+/* 1. Main Layout ================================= */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	
+}
+
+
+
+
+/* 2. Content ================================= */
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+	.header{
+		width:100%;
+		height:auto;
+		background:#3cc6dd;
+		
+		img.ghibli-logo{
+			width:100%;
+			
+		}
+		
+		.logo-aside{
+			width:100%;
+			height:75%;
+			background-color: black;
+			float:right;
+			display:none;
+		}
+	
+		.menu-bar{
+			width:100%;
+			
+			background-color: #ccc;
+		}
+	
+		.ticket-bar{
+			width:100%;
+			background-color: #ccc;
+		}
+	}
+	
+	.welcome-overview{
+		background-image: url("/dist/img/totoroPrint.jpg");
+		opacity: .25;
+		width: 100%;
+		height:300px;
+	}
+	
+	.boxes-overview{
+		width: 100%;
+	
+		background-color:#3F3C47;
+		display:flex;
+		justify-content: center;
+		flex-flow: column;
+	
+		.overview-box{
+			
+			width: 90%;
+			margin:5%;
+			height:200px;
+			background-color: #319FB1;
+
+			img.short-film{
+				width:100%;
+			}
+			
+		}
+	}
+	
+	.footer{
+		background-color: black;
+		height:100px;
+		
+		p.footer{
+			color:white;
+		}
+	}
+
+}
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+	.header{
+		width:100%;
+		height:250px;
+		background:#fffff;
+
+		.logo-holder{
+			
+			width:45%;
+			height:100%;
+			float:right;
+
+			img.ghibli-logo{
+				width:90%;
+				float:right;
+				overflow: hidden;
+			}
+		}
+		
+		.logo-aside{
+			width:300px;
+			height:88%;
+			background-color: #ffffff;
+			
+		}
+	
+		.menu-bar{
+			width:300px;
+			
+			background-color: #ccc;
+		}
+	
+		.ticket-bar{
+			width:100%;
+			background-color: #ccc;
+		}
+	}
+	
+	.welcome-overview{
+		background-image: url("/dist/img/totoroPrint.jpg");
+		opacity: .25;
+		width: 100%;
+		height:600px;
+	}
+	
+	.boxes-overview{
+		width: 100%;
+		height:300px;
+		background-color:#3f3c47;
+		display:flex;
+		justify-content: center;
+	
+		.overview-box{
+			
+			width: 30%;
+			margin:2%;
+			height:auto;
+			background-color: #319fb1;
+
+			img.short-film{
+				width:100%;
+			}
+			
+		}
+	}
+	
+	.footer{
+		background-color: black;
+		height:100px;
+		
+		p.footer{
+			color:white;
+		}
+	}
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+	.header{
+		width:100%;
+		height:260px;
+		background:#3cc6dd;
+		
+		.logo-container{
+
+			width:50%;
+
+			img.ghibli-logo{
+				width:100%;
+				float:right;
+			}
+		}
+		.logo-aside{
+			width:300px;
+			height:75%;
+			background-color: black;
+			
+		}
+	
+		.menu-bar{
+			width:100%;
+			
+			background-color: #ccc;
+		}
+	
+		.ticket-bar{
+			width:100%;
+			background-color: #ccc;
+		}
+	}
+	
+	.welcome-overview{
+		background-image: url("/dist/img/totoroPrint.jpg");
+		opacity: .25;
+		width: 100%;
+		height:300px;
+	}
+	
+	.boxes-overview{
+		width: 100%;
+		height:300px;
+		background-color:#3f3c47;
+		display:flex;
+		justify-content: center;
+	
+		.overview-box{
+			
+			width: 30%;
+			margin:2%;
+			height:auto;
+			background-color: #319fb1;
+
+			img.short-film{
+				width:100%;
+			}
+			
+		}
+	}
+	
+	.footer{
+		background-color: black;
+		height:100px;
+		
+		p.footer{
+			color:white;
+		}
+	}
+}
+@media only screen and (min-width: 1024px) and (max-width: 1440px) {}
+@media only screen and (min-width: 1441px) {}
